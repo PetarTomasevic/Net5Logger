@@ -2,8 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Description>Net5Logger - ILogger Extensions Library</Description>
+    <Description>Net5Logger - ILogger Extensions Library
+Enables writing logs to TXT file or Database Table</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/PetarTomasevic/Net5Logger</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/PetarTomasevic/Net5Logger</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
