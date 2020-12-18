@@ -4,13 +4,13 @@ Small Library to enable ILogger to Log into database or text file
 
 To install nuget package run
 
-        Install-Package C3Logging -Version 1.0.0
+        Install-Package Net5Logger -Version 1.0.0
 
 In **Program.cs**
  add
 
-    using C3Logging.DatabaseLogging;
-    using C3Logging.FileLogging;
+    using Net5Logger.DatabaseLogging;
+    using Net5Logger.FileLogging;
 
 Extend host builder with
 
@@ -76,9 +76,6 @@ Set in code:
         }
     }
 
-That's it.
-
-**Geek Warning:** 
-[YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+Happy Coding!
 
 
